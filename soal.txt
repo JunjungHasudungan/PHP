@@ -1,0 +1,24 @@
+Mencari nilai array 
+
+$names = ["a", "b", "c"];
+
+[Tugas] 
+1. menampikan semua nilai array
+2. temukan nilai yang dicari
+3. di index keberapa 
+menggunaakan function (names yang dicari)
+
+public function all() // menampilkan semua nilai array
+{
+    foreach($this->names as $name)
+    {
+        echo "Nama : $nama";
+    }
+}
+
+
+for () // melakukan index
+foreach () // looping tanpa index 
+while() // melakukan looping
+do - while() // melakukan looping, mengecheck
+
